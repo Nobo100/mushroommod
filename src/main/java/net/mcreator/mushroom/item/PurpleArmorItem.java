@@ -11,6 +11,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
 
+import net.mcreator.mushroom.init.MushroomModItems;
+
 public abstract class PurpleArmorItem extends ArmorItem {
 	public PurpleArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
