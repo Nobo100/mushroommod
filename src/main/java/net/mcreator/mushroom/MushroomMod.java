@@ -29,9 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.mushroom.init.MushroomModTabs;
-import net.mcreator.mushroom.init.MushroomModItems;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -49,10 +46,6 @@ public class MushroomMod {
 	public MushroomMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		MushroomModItems.REGISTRY.register(bus);
-
-		MushroomModTabs.REGISTRY.register(bus);
 
 	}
 
