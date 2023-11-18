@@ -1,14 +1,127 @@
 {
   "mod_elements": [
     {
-      "name": "Killduck",
-      "type": "achievement",
+      "name": "MushroomtoolsPickaxe",
+      "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "killduck",
+      "registry_name": "mushroomtools_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/advancements/killduck.json"
+          "src/main/resources/assets/mushroom/models/item/mushroomtools_pickaxe.json",
+          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsAxeItem.java",
+          "src/main/resources/assets/mushroom/models/item/mushroomtools_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsSwordItem.java",
+          "src/main/resources/assets/mushroom/models/item/mushroomtools_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsShovelItem.java",
+          "src/main/resources/assets/mushroom/models/item/mushroomtools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsHoeItem.java",
+          "src/main/resources/assets/mushroom/models/item/mushroomtools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/mushroomtools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/mushroomtools_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/mushroomtools_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/mushroomtools_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MushroomtoolsHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomtools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/mushroomtools_hoe_recipe.json"
         ]
       }
     }
@@ -18,7 +131,12 @@
   "language_map": {
     "en_us": {
       "advancements.killduck.descr": "kill it and your sleeping on the couch",
-      "advancements.killduck.title": "murder"
+      "item.mushroom.mushroomtools_sword": "Mushroomtools Sword",
+      "advancements.killduck.title": "murder",
+      "item.mushroom.mushroomtools_pickaxe": "Mushroomtools Pickaxe",
+      "item.mushroom.mushroomtools_shovel": "Mushroomtools Shovel",
+      "item.mushroom.mushroomtools_axe": "Mushroomtools Axe",
+      "item.mushroom.mushroomtools_hoe": "Mushroomtools Hoe"
     }
   },
   "foldersRoot": {
