@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mushroom.block.RedOreBlock;
+import net.mcreator.mushroom.block.RedBlockBlock;
 import net.mcreator.mushroom.block.PurpleOreBlock;
 import net.mcreator.mushroom.block.PurpleMushroomWoodBlock;
 import net.mcreator.mushroom.block.PurpleMushroomStairsBlock;
@@ -38,4 +40,6 @@ public class MushroomModBlocks {
 	public static final RegistryObject<Block> PURPLE_MUSHROOM_FENCE_GATE = REGISTRY.register("purple_mushroom_fence_gate", () -> new PurpleMushroomFenceGateBlock());
 	public static final RegistryObject<Block> PURPLE_MUSHROOM_PRESSURE_PLATE = REGISTRY.register("purple_mushroom_pressure_plate", () -> new PurpleMushroomPressurePlateBlock());
 	public static final RegistryObject<Block> PURPLE_MUSHROOM_BUTTON = REGISTRY.register("purple_mushroom_button", () -> new PurpleMushroomButtonBlock());
+	public static final RegistryObject<Block> RED_ORE = REGISTRY.register("red_ore", () -> new RedOreBlock());
+	public static final RegistryObject<Block> RED_BLOCK = REGISTRY.register("red_block", () -> new RedBlockBlock());
 }

@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "purple_gem",
+    "texture": "tim",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Purple",
+    "name": "Purple Shroom (tim)",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Mushroomscottagecore"
     },
     "stackSize": 64,
     "enchantability": 0,

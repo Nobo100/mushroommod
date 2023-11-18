@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "mushroom:purple_block",
-    "mushroom:purple_ore"
+    "mushroom:purple_ore",
+    "mushroom:red_ore",
+    "mushroom:red_block"
   ]
 }

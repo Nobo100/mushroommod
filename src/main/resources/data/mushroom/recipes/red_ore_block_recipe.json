@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:red"
+    },
+    "1": {
+      "item": "mushroom:red"
+    },
+    "2": {
+      "item": "mushroom:red"
+    },
+    "3": {
+      "item": "mushroom:red"
+    },
+    "4": {
+      "item": "mushroom:red"
+    },
+    "5": {
+      "item": "mushroom:red"
+    },
+    "6": {
+      "item": "mushroom:red"
+    },
+    "7": {
+      "item": "mushroom:red"
+    },
+    "8": {
+      "item": "mushroom:red"
+    }
+  },
+  "result": {
+    "item": "mushroom:red_block",
+    "count": 1
+  }
+}

@@ -9,7 +9,7 @@
     "name": "Purple Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MushroomCottagetools"
     },
     "harvestLevel": 4,
     "efficiency": 9.0,

@@ -635,19 +635,354 @@
         ]
       },
       "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "Mushroomscottagecore",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroomscottagecore",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MushroomCottageBlocks",
+      "type": "tab",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_cottage_blocks",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MushroomCottagetools",
+      "type": "tab",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mushroom_cottagetools",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Red",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/RedItem.java",
+          "src/main/resources/assets/mushroom/models/item/red.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/world/features/ores/RedOreFeature.java",
+          "src/main/resources/assets/mushroom/models/block/red_ore.json",
+          "src/main/java/net/mcreator/mushroom/block/RedOreBlock.java",
+          "src/main/resources/data/mushroom/worldgen/placed_feature/red_ore.json",
+          "src/main/resources/data/mushroom/forge/biome_modifier/red_ore_biome_modifier.json",
+          "src/main/resources/data/mushroom/worldgen/configured_feature/red_ore.json",
+          "src/main/resources/assets/mushroom/models/item/red_ore.json",
+          "src/main/resources/assets/mushroom/blockstates/red_ore.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/RedBlockBlock.java",
+          "src/main/resources/assets/mushroom/models/block/red_block.json",
+          "src/main/resources/assets/mushroom/blockstates/red_block.json",
+          "src/main/resources/assets/mushroom/models/item/red_block.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_ore_smelting.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/RedPickaxeItem.java",
+          "src/main/resources/assets/mushroom/models/item/red_pickaxe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/red_axe.json",
+          "src/main/java/net/mcreator/mushroom/item/RedAxeItem.java"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/RedSwordItem.java",
+          "src/main/resources/assets/mushroom/models/item/red_sword.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/RedShovelItem.java",
+          "src/main/resources/assets/mushroom/models/item/red_shovel.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/red_hoe.json",
+          "src/main/java/net/mcreator/mushroom/item/RedHoeItem.java"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_axe_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_sword_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_shovel_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_hoe_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/red_armor_chestplate.json",
+          "src/main/resources/assets/mushroom/models/item/red_armor_leggings.json",
+          "src/main/resources/assets/mushroom/models/item/red_armor_boots.json",
+          "src/main/resources/assets/mushroom/models/item/red_armor_helmet.json",
+          "src/main/java/net/mcreator/mushroom/item/RedArmorItem.java"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
+    },
+    {
+      "name": "RedArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/red_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/RedMushroom"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.mushroom.red_shovel": "Red Shovel",
       "advancements.killduck.descr": "kill it and your sleeping on the couch",
+      "item.mushroom.red_armor_chestplate": "Red Chestplate",
+      "item.mushroom.red_hoe": "Red Hoe",
       "item.mushroom.purple_armor_chestplate": "Purple Chestplate",
+      "item_group.mushroom.mushroom_cottage_blocks": "Mushroom Blocks",
       "item.mushroom.purple_hoe": "Purple Hoe",
       "block.mushroom.purple_ore": "Purple Ore",
       "item.mushroom.purple_armor_helmet": "Purple Helmet",
+      "block.mushroom.red_ore": "Red Ore",
       "item.mushroom.purple_armor_leggings": "Purple Leggings",
+      "item_group.mushroom.mushroomscottagecore": "Mushrooms",
+      "item.mushroom.red_armor_helmet": "Red Helmet",
       "block.mushroom.purple_mushroom_fence_gate": "PurpleMushroom Fence Gate",
+      "item.mushroom.red_armor_boots": "Red Boots",
+      "item_group.mushroom.mushroom_cottagetools": "Mushroom tools",
       "block.mushroom.purple_mushroom_pressure_plate": "PurpleMushroom Pressure Plate",
       "block.mushroom.purple_mushroom_button": "PurpleMushroom Button",
       "item.mushroom.purple_shovel": "Purple Shovel",
@@ -655,16 +990,22 @@
       "block.mushroom.purple_block": "Block of Purple",
       "block.mushroom.purple_mushroom_wood": "PurpleMushroom Wood",
       "block.mushroom.purple_mushroom_fence": "PurpleMushroom Fence",
-      "item.mushroom.purple": "Purple",
+      "item.mushroom.purple": "Purple Shroom (tim)",
+      "item.mushroom.red": "Red",
       "block.mushroom.purple_mushroom_planks": "PurpleMushroom Planks",
+      "item.mushroom.red_pickaxe": "Red Pickaxe",
+      "item.mushroom.red_axe": "Red Axe",
       "advancements.killduck.title": "murder",
       "block.mushroom.purple_mushroom_stairs": "PurpleMushroom Stairs",
+      "item.mushroom.red_sword": "Red Sword",
       "item.mushroom.purple_sword": "Purple Sword",
       "item.mushroom.purple_armor_boots": "Purple Boots",
       "block.mushroom.purple_mushroom_log": "PurpleMushroom Log",
       "item.mushroom.purple_axe": "Purple Axe",
       "item.mushroom.purple_pickaxe": "Purple Pickaxe",
-      "block.mushroom.purple_mushroom_slab": "PurpleMushroom Slab"
+      "block.mushroom.purple_mushroom_slab": "PurpleMushroom Slab",
+      "block.mushroom.red_block": "Block of Red",
+      "item.mushroom.red_armor_leggings": "Red Leggings"
     }
   },
   "foldersRoot": {

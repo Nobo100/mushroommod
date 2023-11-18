@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mushroom:block/red_ore",
+    "particle": "mushroom:block/red_ore"
+  },
+  "render_type": "solid"
+}

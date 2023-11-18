@@ -9,7 +9,7 @@
     "name": "Purple Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MushroomCottagetools"
     },
     "harvestLevel": 4,
     "efficiency": 9.0,

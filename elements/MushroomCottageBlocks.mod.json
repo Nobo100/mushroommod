@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Mushroom Blocks",
+    "icon": {
+      "value": "CUSTOM:Purple"
+    },
+    "showSearch": false
+  }
+}
