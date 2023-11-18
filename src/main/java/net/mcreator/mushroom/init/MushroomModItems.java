@@ -12,6 +12,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mushroom.item.YellowSwordItem;
+import net.mcreator.mushroom.item.YellowShovelItem;
+import net.mcreator.mushroom.item.YellowPickaxeItem;
+import net.mcreator.mushroom.item.YellowItem;
+import net.mcreator.mushroom.item.YellowHoeItem;
+import net.mcreator.mushroom.item.YellowAxeItem;
+import net.mcreator.mushroom.item.YellowArmorItem;
 import net.mcreator.mushroom.item.RedSwordItem;
 import net.mcreator.mushroom.item.RedShovelItem;
 import net.mcreator.mushroom.item.RedPickaxeItem;
@@ -26,6 +33,13 @@ import net.mcreator.mushroom.item.PurpleItem;
 import net.mcreator.mushroom.item.PurpleHoeItem;
 import net.mcreator.mushroom.item.PurpleAxeItem;
 import net.mcreator.mushroom.item.PurpleArmorItem;
+import net.mcreator.mushroom.item.BlueSwordItem;
+import net.mcreator.mushroom.item.BlueShovelItem;
+import net.mcreator.mushroom.item.BluePickaxeItem;
+import net.mcreator.mushroom.item.BlueItem;
+import net.mcreator.mushroom.item.BlueHoeItem;
+import net.mcreator.mushroom.item.BlueAxeItem;
+import net.mcreator.mushroom.item.BlueArmorItem;
 import net.mcreator.mushroom.MushroomMod;
 
 public class MushroomModItems {
@@ -64,6 +78,30 @@ public class MushroomModItems {
 	public static final RegistryObject<Item> RED_SWORD = REGISTRY.register("red_sword", () -> new RedSwordItem());
 	public static final RegistryObject<Item> RED_SHOVEL = REGISTRY.register("red_shovel", () -> new RedShovelItem());
 	public static final RegistryObject<Item> RED_HOE = REGISTRY.register("red_hoe", () -> new RedHoeItem());
+	public static final RegistryObject<Item> BLUE_ARMOR_HELMET = REGISTRY.register("blue_armor_helmet", () -> new BlueArmorItem.Helmet());
+	public static final RegistryObject<Item> BLUE_ARMOR_CHESTPLATE = REGISTRY.register("blue_armor_chestplate", () -> new BlueArmorItem.Chestplate());
+	public static final RegistryObject<Item> BLUE_ARMOR_LEGGINGS = REGISTRY.register("blue_armor_leggings", () -> new BlueArmorItem.Leggings());
+	public static final RegistryObject<Item> BLUE_ARMOR_BOOTS = REGISTRY.register("blue_armor_boots", () -> new BlueArmorItem.Boots());
+	public static final RegistryObject<Item> YELLOW_ARMOR_HELMET = REGISTRY.register("yellow_armor_helmet", () -> new YellowArmorItem.Helmet());
+	public static final RegistryObject<Item> YELLOW_ARMOR_CHESTPLATE = REGISTRY.register("yellow_armor_chestplate", () -> new YellowArmorItem.Chestplate());
+	public static final RegistryObject<Item> YELLOW_ARMOR_LEGGINGS = REGISTRY.register("yellow_armor_leggings", () -> new YellowArmorItem.Leggings());
+	public static final RegistryObject<Item> YELLOW_ARMOR_BOOTS = REGISTRY.register("yellow_armor_boots", () -> new YellowArmorItem.Boots());
+	public static final RegistryObject<Item> BLUE_ORE = block(MushroomModBlocks.BLUE_ORE);
+	public static final RegistryObject<Item> BLUE_BLOCK = block(MushroomModBlocks.BLUE_BLOCK);
+	public static final RegistryObject<Item> YELLOW_ORE = block(MushroomModBlocks.YELLOW_ORE);
+	public static final RegistryObject<Item> YELLOW_BLOCK = block(MushroomModBlocks.YELLOW_BLOCK);
+	public static final RegistryObject<Item> BLUE = REGISTRY.register("blue", () -> new BlueItem());
+	public static final RegistryObject<Item> YELLOW = REGISTRY.register("yellow", () -> new YellowItem());
+	public static final RegistryObject<Item> BLUE_PICKAXE = REGISTRY.register("blue_pickaxe", () -> new BluePickaxeItem());
+	public static final RegistryObject<Item> BLUE_AXE = REGISTRY.register("blue_axe", () -> new BlueAxeItem());
+	public static final RegistryObject<Item> BLUE_SWORD = REGISTRY.register("blue_sword", () -> new BlueSwordItem());
+	public static final RegistryObject<Item> BLUE_SHOVEL = REGISTRY.register("blue_shovel", () -> new BlueShovelItem());
+	public static final RegistryObject<Item> BLUE_HOE = REGISTRY.register("blue_hoe", () -> new BlueHoeItem());
+	public static final RegistryObject<Item> YELLOW_PICKAXE = REGISTRY.register("yellow_pickaxe", () -> new YellowPickaxeItem());
+	public static final RegistryObject<Item> YELLOW_AXE = REGISTRY.register("yellow_axe", () -> new YellowAxeItem());
+	public static final RegistryObject<Item> YELLOW_SWORD = REGISTRY.register("yellow_sword", () -> new YellowSwordItem());
+	public static final RegistryObject<Item> YELLOW_SHOVEL = REGISTRY.register("yellow_shovel", () -> new YellowShovelItem());
+	public static final RegistryObject<Item> YELLOW_HOE = REGISTRY.register("yellow_hoe", () -> new YellowHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

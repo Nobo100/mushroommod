@@ -4,6 +4,10 @@
     "mushroom:purple_block",
     "mushroom:purple_ore",
     "mushroom:red_ore",
-    "mushroom:red_block"
+    "mushroom:red_block",
+    "mushroom:blue_ore",
+    "mushroom:blue_block",
+    "mushroom:yellow_ore",
+    "mushroom:yellow_block"
   ]
 }

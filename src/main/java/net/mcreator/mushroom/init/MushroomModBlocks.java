@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.mushroom.block.YellowOreBlock;
+import net.mcreator.mushroom.block.YellowBlockBlock;
 import net.mcreator.mushroom.block.RedOreBlock;
 import net.mcreator.mushroom.block.RedBlockBlock;
 import net.mcreator.mushroom.block.PurpleOreBlock;
@@ -24,6 +26,8 @@ import net.mcreator.mushroom.block.PurpleMushroomFenceGateBlock;
 import net.mcreator.mushroom.block.PurpleMushroomFenceBlock;
 import net.mcreator.mushroom.block.PurpleMushroomButtonBlock;
 import net.mcreator.mushroom.block.PurpleBlockBlock;
+import net.mcreator.mushroom.block.BlueOreBlock;
+import net.mcreator.mushroom.block.BlueBlockBlock;
 import net.mcreator.mushroom.MushroomMod;
 
 public class MushroomModBlocks {
@@ -42,4 +46,8 @@ public class MushroomModBlocks {
 	public static final RegistryObject<Block> PURPLE_MUSHROOM_BUTTON = REGISTRY.register("purple_mushroom_button", () -> new PurpleMushroomButtonBlock());
 	public static final RegistryObject<Block> RED_ORE = REGISTRY.register("red_ore", () -> new RedOreBlock());
 	public static final RegistryObject<Block> RED_BLOCK = REGISTRY.register("red_block", () -> new RedBlockBlock());
+	public static final RegistryObject<Block> BLUE_ORE = REGISTRY.register("blue_ore", () -> new BlueOreBlock());
+	public static final RegistryObject<Block> BLUE_BLOCK = REGISTRY.register("blue_block", () -> new BlueBlockBlock());
+	public static final RegistryObject<Block> YELLOW_ORE = REGISTRY.register("yellow_ore", () -> new YellowOreBlock());
+	public static final RegistryObject<Block> YELLOW_BLOCK = REGISTRY.register("yellow_block", () -> new YellowBlockBlock());
 }

@@ -672,6 +672,7 @@
     {
       "name": "Red",
       "type": "item",
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red",
@@ -686,6 +687,7 @@
     {
       "name": "RedOre",
       "type": "block",
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_ore",
@@ -706,6 +708,7 @@
     {
       "name": "RedBlock",
       "type": "block",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_block",
@@ -722,6 +725,7 @@
     {
       "name": "RedOreBlockRecipe",
       "type": "recipe",
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_ore_block_recipe",
@@ -735,6 +739,7 @@
     {
       "name": "RedBlockOreRecipe",
       "type": "recipe",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_block_ore_recipe",
@@ -748,6 +753,7 @@
     {
       "name": "RedOreSmelting",
       "type": "recipe",
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_ore_smelting",
@@ -761,6 +767,7 @@
     {
       "name": "RedPickaxe",
       "type": "tool",
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_pickaxe",
@@ -775,6 +782,7 @@
     {
       "name": "RedAxe",
       "type": "tool",
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_axe",
@@ -789,6 +797,7 @@
     {
       "name": "RedSword",
       "type": "tool",
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sword",
@@ -803,6 +812,7 @@
     {
       "name": "RedShovel",
       "type": "tool",
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_shovel",
@@ -817,6 +827,7 @@
     {
       "name": "RedHoe",
       "type": "tool",
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_hoe",
@@ -831,6 +842,7 @@
     {
       "name": "RedPickaxeRecipe",
       "type": "recipe",
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_pickaxe_recipe",
@@ -844,6 +856,7 @@
     {
       "name": "RedAxeRecipe",
       "type": "recipe",
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_axe_recipe",
@@ -857,6 +870,7 @@
     {
       "name": "RedSwordRecipe",
       "type": "recipe",
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_sword_recipe",
@@ -870,6 +884,7 @@
     {
       "name": "RedShovelRecipe",
       "type": "recipe",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_shovel_recipe",
@@ -883,6 +898,7 @@
     {
       "name": "RedHoeRecipe",
       "type": "recipe",
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_hoe_recipe",
@@ -896,6 +912,7 @@
     {
       "name": "RedArmor",
       "type": "armor",
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor",
@@ -913,6 +930,7 @@
     {
       "name": "RedArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_helmet_recipe",
@@ -926,6 +944,7 @@
     {
       "name": "RedArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_chestplate_recipe",
@@ -939,6 +958,7 @@
     {
       "name": "RedArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_leggings_recipe",
@@ -952,6 +972,7 @@
     {
       "name": "RedArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_boots_recipe",
@@ -961,6 +982,592 @@
         ]
       },
       "path": "~/RedMushroom"
+    },
+    {
+      "name": "Blue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/blue.json",
+          "src/main/java/net/mcreator/mushroom/item/BlueItem.java"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/BlueOreBlock.java",
+          "src/main/resources/data/mushroom/worldgen/placed_feature/blue_ore.json",
+          "src/main/java/net/mcreator/mushroom/world/features/ores/BlueOreFeature.java",
+          "src/main/resources/assets/mushroom/models/item/blue_ore.json",
+          "src/main/resources/data/mushroom/forge/biome_modifier/blue_ore_biome_modifier.json",
+          "src/main/resources/assets/mushroom/blockstates/blue_ore.json",
+          "src/main/resources/data/mushroom/worldgen/configured_feature/blue_ore.json",
+          "src/main/resources/assets/mushroom/models/block/blue_ore.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/block/blue_block.json",
+          "src/main/resources/assets/mushroom/blockstates/blue_block.json",
+          "src/main/resources/assets/mushroom/models/item/blue_block.json",
+          "src/main/java/net/mcreator/mushroom/block/BlueBlockBlock.java"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_ore_smelting.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BluePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/blue_pickaxe.json",
+          "src/main/java/net/mcreator/mushroom/item/BluePickaxeItem.java"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/blue_axe.json",
+          "src/main/java/net/mcreator/mushroom/item/BlueAxeItem.java"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/blue_sword.json",
+          "src/main/java/net/mcreator/mushroom/item/BlueSwordItem.java"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/BlueShovelItem.java",
+          "src/main/resources/assets/mushroom/models/item/blue_shovel.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/BlueHoeItem.java",
+          "src/main/resources/assets/mushroom/models/item/blue_hoe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BluePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_axe_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_sword_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_shovel_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_hoe_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/blue_armor_helmet.json",
+          "src/main/java/net/mcreator/mushroom/item/BlueArmorItem.java",
+          "src/main/resources/assets/mushroom/models/item/blue_armor_chestplate.json",
+          "src/main/resources/assets/mushroom/models/item/blue_armor_leggings.json",
+          "src/main/resources/assets/mushroom/models/item/blue_armor_boots.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "BlueArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/blue_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/BlueMushroom"
+    },
+    {
+      "name": "Yellow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/yellow.json",
+          "src/main/java/net/mcreator/mushroom/item/YellowItem.java"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/YellowOreBlock.java",
+          "src/main/resources/data/mushroom/worldgen/placed_feature/yellow_ore.json",
+          "src/main/resources/assets/mushroom/models/block/yellow_ore.json",
+          "src/main/java/net/mcreator/mushroom/world/features/ores/YellowOreFeature.java",
+          "src/main/resources/data/mushroom/forge/biome_modifier/yellow_ore_biome_modifier.json",
+          "src/main/resources/assets/mushroom/models/item/yellow_ore.json",
+          "src/main/resources/data/mushroom/worldgen/configured_feature/yellow_ore.json",
+          "src/main/resources/assets/mushroom/blockstates/yellow_ore.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/YellowBlockBlock.java",
+          "src/main/resources/assets/mushroom/models/block/yellow_block.json",
+          "src/main/resources/assets/mushroom/blockstates/yellow_block.json",
+          "src/main/resources/assets/mushroom/models/item/yellow_block.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_ore_smelting.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/yellow_pickaxe.json",
+          "src/main/java/net/mcreator/mushroom/item/YellowPickaxeItem.java"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/YellowAxeItem.java",
+          "src/main/resources/assets/mushroom/models/item/yellow_axe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/YellowSwordItem.java",
+          "src/main/resources/assets/mushroom/models/item/yellow_sword.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/yellow_shovel.json",
+          "src/main/java/net/mcreator/mushroom/item/YellowShovelItem.java"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/yellow_hoe.json",
+          "src/main/java/net/mcreator/mushroom/item/YellowHoeItem.java"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_axe_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_sword_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_shovel_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_hoe_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/yellow_armor_helmet.json",
+          "src/main/resources/assets/mushroom/models/item/yellow_armor_boots.json",
+          "src/main/java/net/mcreator/mushroom/item/YellowArmorItem.java",
+          "src/main/resources/assets/mushroom/models/item/yellow_armor_chestplate.json",
+          "src/main/resources/assets/mushroom/models/item/yellow_armor_leggings.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
+    },
+    {
+      "name": "YellowArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/yellow_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/YellowMushroom"
     }
   ],
   "variable_elements": [],
@@ -968,44 +1575,68 @@
   "language_map": {
     "en_us": {
       "item.mushroom.red_shovel": "Red Shovel",
-      "advancements.killduck.descr": "kill it and your sleeping on the couch",
-      "item.mushroom.red_armor_chestplate": "Red Chestplate",
+      "item.mushroom.blue_shovel": "Blue Shovel",
+      "block.mushroom.yellow_ore": "Yellow Ore",
       "item.mushroom.red_hoe": "Red Hoe",
-      "item.mushroom.purple_armor_chestplate": "Purple Chestplate",
+      "block.mushroom.blue_ore": "Blue Ore",
       "item_group.mushroom.mushroom_cottage_blocks": "Mushroom Blocks",
+      "item.mushroom.purple_armor_chestplate": "Purple Chestplate",
+      "item.mushroom.blue_armor_leggings": "Blue Leggings",
+      "item.mushroom.yellow_armor_boots": "Yellow Boots",
       "item.mushroom.purple_hoe": "Purple Hoe",
-      "block.mushroom.purple_ore": "Purple Ore",
-      "item.mushroom.purple_armor_helmet": "Purple Helmet",
       "block.mushroom.red_ore": "Red Ore",
-      "item.mushroom.purple_armor_leggings": "Purple Leggings",
       "item_group.mushroom.mushroomscottagecore": "Mushrooms",
       "item.mushroom.red_armor_helmet": "Red Helmet",
-      "block.mushroom.purple_mushroom_fence_gate": "PurpleMushroom Fence Gate",
-      "item.mushroom.red_armor_boots": "Red Boots",
-      "item_group.mushroom.mushroom_cottagetools": "Mushroom tools",
-      "block.mushroom.purple_mushroom_pressure_plate": "PurpleMushroom Pressure Plate",
       "block.mushroom.purple_mushroom_button": "PurpleMushroom Button",
+      "item.mushroom.yellow_sword": "Yellow Sword",
       "item.mushroom.purple_shovel": "Purple Shovel",
       "block.mushroom.purple_mushroom_leaves": "PurpleMushroom Leaves",
       "block.mushroom.purple_block": "Block of Purple",
       "block.mushroom.purple_mushroom_wood": "PurpleMushroom Wood",
       "block.mushroom.purple_mushroom_fence": "PurpleMushroom Fence",
-      "item.mushroom.purple": "Purple Shroom (tim)",
+      "item.mushroom.blue_hoe": "Blue Hoe",
       "item.mushroom.red": "Red",
+      "item.mushroom.yellow_hoe": "Yellow Hoe",
       "block.mushroom.purple_mushroom_planks": "PurpleMushroom Planks",
-      "item.mushroom.red_pickaxe": "Red Pickaxe",
       "item.mushroom.red_axe": "Red Axe",
       "advancements.killduck.title": "murder",
       "block.mushroom.purple_mushroom_stairs": "PurpleMushroom Stairs",
       "item.mushroom.red_sword": "Red Sword",
-      "item.mushroom.purple_sword": "Purple Sword",
       "item.mushroom.purple_armor_boots": "Purple Boots",
-      "block.mushroom.purple_mushroom_log": "PurpleMushroom Log",
-      "item.mushroom.purple_axe": "Purple Axe",
-      "item.mushroom.purple_pickaxe": "Purple Pickaxe",
-      "block.mushroom.purple_mushroom_slab": "PurpleMushroom Slab",
+      "item.mushroom.yellow": "Yellow",
+      "item.mushroom.yellow_pickaxe": "Yellow Pickaxe",
       "block.mushroom.red_block": "Block of Red",
-      "item.mushroom.red_armor_leggings": "Red Leggings"
+      "block.mushroom.purple_mushroom_slab": "PurpleMushroom Slab",
+      "item.mushroom.purple_axe": "Purple Axe",
+      "item.mushroom.blue": "Blue",
+      "item.mushroom.yellow_shovel": "Yellow Shovel",
+      "advancements.killduck.descr": "kill it and your sleeping on the couch",
+      "item.mushroom.red_armor_chestplate": "Red Chestplate",
+      "item.mushroom.blue_armor_helmet": "Blue Helmet",
+      "item.mushroom.yellow_armor_chestplate": "Yellow Chestplate",
+      "block.mushroom.purple_ore": "Purple Ore",
+      "item.mushroom.purple_armor_helmet": "Purple Helmet",
+      "item.mushroom.yellow_armor_helmet": "Yellow Helmet",
+      "item.mushroom.purple_armor_leggings": "Purple Leggings",
+      "block.mushroom.blue_block": "Block of Blue",
+      "item.mushroom.blue_axe": "Blue Axe",
+      "block.mushroom.purple_mushroom_fence_gate": "PurpleMushroom Fence Gate",
+      "item.mushroom.yellow_armor_leggings": "Yellow Leggings",
+      "item.mushroom.red_armor_boots": "Red Boots",
+      "item_group.mushroom.mushroom_cottagetools": "Mushroom tools",
+      "block.mushroom.purple_mushroom_pressure_plate": "PurpleMushroom Pressure Plate",
+      "block.mushroom.yellow_block": "Block of Yellow",
+      "item.mushroom.blue_armor_boots": "Blue Boots",
+      "item.mushroom.purple": "Purple Shroom (tim)",
+      "item.mushroom.blue_armor_chestplate": "Blue Chestplate",
+      "item.mushroom.red_pickaxe": "Red Pickaxe",
+      "item.mushroom.purple_sword": "Purple Sword",
+      "item.mushroom.blue_pickaxe": "Blue Pickaxe",
+      "block.mushroom.purple_mushroom_log": "PurpleMushroom Log",
+      "item.mushroom.yellow_axe": "Yellow Axe",
+      "item.mushroom.purple_pickaxe": "Purple Pickaxe",
+      "item.mushroom.red_armor_leggings": "Red Leggings",
+      "item.mushroom.blue_sword": "Blue Sword"
     }
   },
   "foldersRoot": {

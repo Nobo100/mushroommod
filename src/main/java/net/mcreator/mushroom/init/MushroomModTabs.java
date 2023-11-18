@@ -27,6 +27,12 @@ public class MushroomModTabs {
 				tabData.accept(MushroomModBlocks.RED_ORE.get().asItem());
 				tabData.accept(MushroomModBlocks.RED_BLOCK.get().asItem());
 				tabData.accept(MushroomModItems.RED.get());
+				tabData.accept(MushroomModBlocks.BLUE_ORE.get().asItem());
+				tabData.accept(MushroomModBlocks.BLUE_BLOCK.get().asItem());
+				tabData.accept(MushroomModBlocks.YELLOW_ORE.get().asItem());
+				tabData.accept(MushroomModBlocks.YELLOW_BLOCK.get().asItem());
+				tabData.accept(MushroomModItems.BLUE.get());
+				tabData.accept(MushroomModItems.YELLOW.get());
 			})
 
 					.build());
@@ -71,6 +77,16 @@ public class MushroomModTabs {
 			tabData.accept(MushroomModItems.RED_ARMOR_LEGGINGS.get());
 			tabData.accept(MushroomModItems.RED_ARMOR_BOOTS.get());
 			tabData.accept(MushroomModItems.RED_SWORD.get());
+			tabData.accept(MushroomModItems.BLUE_ARMOR_HELMET.get());
+			tabData.accept(MushroomModItems.BLUE_ARMOR_CHESTPLATE.get());
+			tabData.accept(MushroomModItems.BLUE_ARMOR_LEGGINGS.get());
+			tabData.accept(MushroomModItems.BLUE_ARMOR_BOOTS.get());
+			tabData.accept(MushroomModItems.YELLOW_ARMOR_HELMET.get());
+			tabData.accept(MushroomModItems.YELLOW_ARMOR_CHESTPLATE.get());
+			tabData.accept(MushroomModItems.YELLOW_ARMOR_LEGGINGS.get());
+			tabData.accept(MushroomModItems.YELLOW_ARMOR_BOOTS.get());
+			tabData.accept(MushroomModItems.BLUE_SWORD.get());
+			tabData.accept(MushroomModItems.YELLOW_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -78,6 +94,14 @@ public class MushroomModTabs {
 			tabData.accept(MushroomModItems.RED_AXE.get());
 			tabData.accept(MushroomModItems.RED_SHOVEL.get());
 			tabData.accept(MushroomModItems.RED_HOE.get());
+			tabData.accept(MushroomModItems.BLUE_PICKAXE.get());
+			tabData.accept(MushroomModItems.BLUE_AXE.get());
+			tabData.accept(MushroomModItems.BLUE_SHOVEL.get());
+			tabData.accept(MushroomModItems.BLUE_HOE.get());
+			tabData.accept(MushroomModItems.YELLOW_PICKAXE.get());
+			tabData.accept(MushroomModItems.YELLOW_AXE.get());
+			tabData.accept(MushroomModItems.YELLOW_SHOVEL.get());
+			tabData.accept(MushroomModItems.YELLOW_HOE.get());
 		}
 	}
 }

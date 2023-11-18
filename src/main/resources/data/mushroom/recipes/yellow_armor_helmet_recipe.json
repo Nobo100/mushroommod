@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:yellow"
+    },
+    "1": {
+      "item": "mushroom:yellow"
+    },
+    "2": {
+      "item": "mushroom:yellow"
+    },
+    "3": {
+      "item": "mushroom:yellow"
+    },
+    "5": {
+      "item": "mushroom:yellow"
+    }
+  },
+  "result": {
+    "item": "mushroom:yellow_armor_helmet",
+    "count": 1
+  }
+}

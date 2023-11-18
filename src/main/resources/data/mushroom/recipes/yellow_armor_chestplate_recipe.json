@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:yellow"
+    },
+    "2": {
+      "item": "mushroom:yellow"
+    },
+    "3": {
+      "item": "mushroom:yellow"
+    },
+    "4": {
+      "item": "mushroom:yellow"
+    },
+    "5": {
+      "item": "mushroom:yellow"
+    },
+    "6": {
+      "item": "mushroom:yellow"
+    },
+    "7": {
+      "item": "mushroom:yellow"
+    },
+    "8": {
+      "item": "mushroom:yellow"
+    }
+  },
+  "result": {
+    "item": "mushroom:yellow_armor_chestplate",
+    "count": 1
+  }
+}
