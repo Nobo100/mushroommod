@@ -3,6 +3,7 @@
     {
       "name": "MushroomtoolsPickaxe",
       "type": "tool",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_pickaxe",
@@ -16,6 +17,7 @@
     {
       "name": "MushroomtoolsAxe",
       "type": "tool",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_axe",
@@ -29,6 +31,7 @@
     {
       "name": "MushroomtoolsSword",
       "type": "tool",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_sword",
@@ -42,6 +45,7 @@
     {
       "name": "MushroomtoolsShovel",
       "type": "tool",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_shovel",
@@ -55,6 +59,7 @@
     {
       "name": "MushroomtoolsHoe",
       "type": "tool",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_hoe",
@@ -68,6 +73,7 @@
     {
       "name": "MushroomtoolsPickaxeRecipe",
       "type": "recipe",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_pickaxe_recipe",
@@ -80,6 +86,7 @@
     {
       "name": "MushroomtoolsAxeRecipe",
       "type": "recipe",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_axe_recipe",
@@ -92,6 +99,7 @@
     {
       "name": "MushroomtoolsSwordRecipe",
       "type": "recipe",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_sword_recipe",
@@ -104,6 +112,7 @@
     {
       "name": "MushroomtoolsShovelRecipe",
       "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_shovel_recipe",
@@ -116,6 +125,7 @@
     {
       "name": "MushroomtoolsHoeRecipe",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mushroomtools_hoe_recipe",
