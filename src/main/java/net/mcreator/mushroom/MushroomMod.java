@@ -31,6 +31,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mushroom.init.MushroomModTabs;
 import net.mcreator.mushroom.init.MushroomModItems;
+import net.mcreator.mushroom.init.MushroomModFeatures;
+import net.mcreator.mushroom.init.MushroomModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,9 +52,12 @@ public class MushroomMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MushroomModBlocks.REGISTRY.register(bus);
+
 		MushroomModItems.REGISTRY.register(bus);
 
 		MushroomModTabs.REGISTRY.register(bus);
+		MushroomModFeatures.REGISTRY.register(bus);
 
 	}
 

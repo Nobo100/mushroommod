@@ -1,139 +1,640 @@
 {
   "mod_elements": [
     {
-      "name": "MushroomtoolsPickaxe",
-      "type": "tool",
-      "sortid": 7,
+      "name": "Purple",
+      "type": "item",
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_pickaxe",
+      "registry_name": "purple",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mushroom/models/item/mushroomtools_pickaxe.json",
-          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsPickaxeItem.java"
+          "src/main/resources/assets/mushroom/models/item/purple.json",
+          "src/main/java/net/mcreator/mushroom/item/PurpleItem.java"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
     },
     {
-      "name": "MushroomtoolsAxe",
-      "type": "tool",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroomtools_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsAxeItem.java",
-          "src/main/resources/assets/mushroom/models/item/mushroomtools_axe.json"
-        ]
-      }
-    },
-    {
-      "name": "MushroomtoolsSword",
-      "type": "tool",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroomtools_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsSwordItem.java",
-          "src/main/resources/assets/mushroom/models/item/mushroomtools_sword.json"
-        ]
-      }
-    },
-    {
-      "name": "MushroomtoolsShovel",
-      "type": "tool",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroomtools_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsShovelItem.java",
-          "src/main/resources/assets/mushroom/models/item/mushroomtools_shovel.json"
-        ]
-      }
-    },
-    {
-      "name": "MushroomtoolsHoe",
-      "type": "tool",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mushroomtools_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mushroom/item/MushroomtoolsHoeItem.java",
-          "src/main/resources/assets/mushroom/models/item/mushroomtools_hoe.json"
-        ]
-      }
-    },
-    {
-      "name": "MushroomtoolsPickaxeRecipe",
-      "type": "recipe",
+      "name": "PurpleOre",
+      "type": "block",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_pickaxe_recipe",
+      "registry_name": "purple_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/recipes/mushroomtools_pickaxe_recipe.json"
+          "src/main/java/net/mcreator/mushroom/block/PurpleOreBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_ore.json",
+          "src/main/resources/data/mushroom/worldgen/placed_feature/purple_ore.json",
+          "src/main/resources/assets/mushroom/models/item/purple_ore.json",
+          "src/main/resources/data/mushroom/worldgen/configured_feature/purple_ore.json",
+          "src/main/resources/data/mushroom/forge/biome_modifier/purple_ore_biome_modifier.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_ore.json",
+          "src/main/java/net/mcreator/mushroom/world/features/ores/PurpleOreFeature.java"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
     },
     {
-      "name": "MushroomtoolsAxeRecipe",
-      "type": "recipe",
+      "name": "PurpleBlock",
+      "type": "block",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_axe_recipe",
+      "registry_name": "purple_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/recipes/mushroomtools_axe_recipe.json"
+          "src/main/resources/assets/mushroom/models/item/purple_block.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_block.json",
+          "src/main/resources/assets/mushroom/models/block/purple_block.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleBlockBlock.java"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
     },
     {
-      "name": "MushroomtoolsSwordRecipe",
+      "name": "PurpleOreBlockRecipe",
       "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_ore_smelting.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurplePickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/purple_pickaxe.json",
+          "src/main/java/net/mcreator/mushroom/item/PurplePickaxeItem.java"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleAxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/PurpleAxeItem.java",
+          "src/main/resources/assets/mushroom/models/item/purple_axe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleSword",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/PurpleSwordItem.java",
+          "src/main/resources/assets/mushroom/models/item/purple_sword.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleShovel",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/purple_shovel.json",
+          "src/main/java/net/mcreator/mushroom/item/PurpleShovelItem.java"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleHoe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/PurpleHoeItem.java",
+          "src/main/resources/assets/mushroom/models/item/purple_hoe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurplePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleAxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_axe_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleSwordRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_sword_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleShovelRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_shovel_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleHoeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_hoe_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleArmor",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "purple_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/item/PurpleArmorItem.java",
+          "src/main/resources/assets/mushroom/models/item/purple_armor_chestplate.json",
+          "src/main/resources/assets/mushroom/models/item/purple_armor_boots.json",
+          "src/main/resources/assets/mushroom/models/item/purple_armor_leggings.json",
+          "src/main/resources/assets/mushroom/models/item/purple_armor_helmet.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomWood",
+      "type": "block",
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_sword_recipe",
+      "registry_name": "purple_mushroom_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/recipes/mushroomtools_sword_recipe.json"
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomWoodBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_wood.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_wood.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_wood.json"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
     },
     {
-      "name": "MushroomtoolsShovelRecipe",
-      "type": "recipe",
+      "name": "PurpleMushroomLog",
+      "type": "block",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_shovel_recipe",
+      "registry_name": "purple_mushroom_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/recipes/mushroomtools_shovel_recipe.json"
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_log.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_log.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomLogBlock.java",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_log.json"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
     },
     {
-      "name": "MushroomtoolsHoeRecipe",
-      "type": "recipe",
+      "name": "PurpleMushroomPlanks",
+      "type": "block",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mushroomtools_hoe_recipe",
+      "registry_name": "purple_mushroom_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/mushroom/recipes/mushroomtools_hoe_recipe.json"
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_planks.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomPlanksBlock.java",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_planks.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_planks.json"
         ]
-      }
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomLeaves",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_leaves.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_leaves.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_leaves.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomLeavesBlock.java"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomStairs",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomStairsBlock.java",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_stairs.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_stairs_outer.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_stairs.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_stairs_inner.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_stairs.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomSlab",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_slab.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_slab_full.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_slab.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_slab_top.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomSlabBlock.java",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_slab.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomFence",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_fence.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomFenceBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_fence.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_post.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_inventory.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomFenceGate",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_gate_wall_open.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_fence_gate.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_gate_open.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomFenceGateBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_gate.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_fence_gate.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomPressurePlate",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_pressure_plate.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_pressure_plate.json",
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomPressurePlateBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_pressure_plate_down.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_pressure_plate.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomButton",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mushroom/block/PurpleMushroomButtonBlock.java",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_button_pressed.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_button.json",
+          "src/main/resources/assets/mushroom/models/item/purple_mushroom_button.json",
+          "src/main/resources/assets/mushroom/blockstates/purple_mushroom_button.json",
+          "src/main/resources/assets/mushroom/models/block/purple_mushroom_button_inventory.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomItemsTag",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/purplemushroom_log.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomWoodRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_wood_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomPlanksRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_planks_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomStairsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_stairs_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomSlabRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_slab_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomFenceRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_fence_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomButtonRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_button_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
+    },
+    {
+      "name": "PurpleMushroomStickRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_mushroom_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mushroom/recipes/purple_mushroom_stick_recipe.json"
+        ]
+      },
+      "path": "~/PurpleMushroom"
     }
   ],
   "variable_elements": [],
@@ -141,17 +642,51 @@
   "language_map": {
     "en_us": {
       "advancements.killduck.descr": "kill it and your sleeping on the couch",
-      "item.mushroom.mushroomtools_sword": "Mushroomtools Sword",
+      "item.mushroom.purple_armor_chestplate": "Purple Chestplate",
+      "item.mushroom.purple_hoe": "Purple Hoe",
+      "block.mushroom.purple_ore": "Purple Ore",
+      "item.mushroom.purple_armor_helmet": "Purple Helmet",
+      "item.mushroom.purple_armor_leggings": "Purple Leggings",
+      "block.mushroom.purple_mushroom_fence_gate": "PurpleMushroom Fence Gate",
+      "block.mushroom.purple_mushroom_pressure_plate": "PurpleMushroom Pressure Plate",
+      "block.mushroom.purple_mushroom_button": "PurpleMushroom Button",
+      "item.mushroom.purple_shovel": "Purple Shovel",
+      "block.mushroom.purple_mushroom_leaves": "PurpleMushroom Leaves",
+      "block.mushroom.purple_block": "Block of Purple",
+      "block.mushroom.purple_mushroom_wood": "PurpleMushroom Wood",
+      "block.mushroom.purple_mushroom_fence": "PurpleMushroom Fence",
+      "item.mushroom.purple": "Purple",
+      "block.mushroom.purple_mushroom_planks": "PurpleMushroom Planks",
       "advancements.killduck.title": "murder",
-      "item.mushroom.mushroomtools_pickaxe": "Mushroomtools Pickaxe",
-      "item.mushroom.mushroomtools_shovel": "Mushroomtools Shovel",
-      "item.mushroom.mushroomtools_axe": "Mushroomtools Axe",
-      "item.mushroom.mushroomtools_hoe": "Mushroomtools Hoe"
+      "block.mushroom.purple_mushroom_stairs": "PurpleMushroom Stairs",
+      "item.mushroom.purple_sword": "Purple Sword",
+      "item.mushroom.purple_armor_boots": "Purple Boots",
+      "block.mushroom.purple_mushroom_log": "PurpleMushroom Log",
+      "item.mushroom.purple_axe": "Purple Axe",
+      "item.mushroom.purple_pickaxe": "Purple Pickaxe",
+      "block.mushroom.purple_mushroom_slab": "PurpleMushroom Slab"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "PurpleMushroom",
+        "children": []
+      },
+      {
+        "name": "RedMushroom",
+        "children": []
+      },
+      {
+        "name": "BlueMushroom",
+        "children": []
+      },
+      {
+        "name": "YellowMushroom",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mushroom",

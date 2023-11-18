@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:purple"
+    },
+    "1": {
+      "item": "mushroom:purple"
+    },
+    "2": {
+      "item": "mushroom:purple"
+    },
+    "3": {
+      "item": "mushroom:purple"
+    },
+    "5": {
+      "item": "mushroom:purple"
+    }
+  },
+  "result": {
+    "item": "mushroom:purple_armor_helmet",
+    "count": 1
+  }
+}

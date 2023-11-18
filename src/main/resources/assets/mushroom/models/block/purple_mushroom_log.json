@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mushroom:block/purplemushroom_log_top",
+    "up": "mushroom:block/purplemushroom_log_top",
+    "north": "mushroom:block/purplemushroom_log_side",
+    "east": "mushroom:block/purplemushroom_log_side",
+    "south": "mushroom:block/purplemushroom_log_side",
+    "west": "mushroom:block/purplemushroom_log_side",
+    "particle": "mushroom:block/purplemushroom_log_top"
+  },
+  "render_type": "solid"
+}

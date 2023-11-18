@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "mushroom:block/purplemushroom_planks",
+    "top": "mushroom:block/purplemushroom_planks",
+    "side": "mushroom:block/purplemushroom_planks"
+  },
+  "render_type": "solid"
+}

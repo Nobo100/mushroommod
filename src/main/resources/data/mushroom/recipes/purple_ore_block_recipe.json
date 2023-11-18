@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:purple"
+    },
+    "1": {
+      "item": "mushroom:purple"
+    },
+    "2": {
+      "item": "mushroom:purple"
+    },
+    "3": {
+      "item": "mushroom:purple"
+    },
+    "4": {
+      "item": "mushroom:purple"
+    },
+    "5": {
+      "item": "mushroom:purple"
+    },
+    "6": {
+      "item": "mushroom:purple"
+    },
+    "7": {
+      "item": "mushroom:purple"
+    },
+    "8": {
+      "item": "mushroom:purple"
+    }
+  },
+  "result": {
+    "item": "mushroom:purple_block",
+    "count": 1
+  }
+}

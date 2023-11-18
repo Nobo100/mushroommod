@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PurpleMushroomLog"
+      },
+      {
+        "value": "CUSTOM:PurpleMushroomLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PurpleMushroomLog"
+      },
+      {
+        "value": "CUSTOM:PurpleMushroomLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PurpleMushroomWood"
+    },
+    "name": "purple_mushroom_wood_recipe",
+    "namespace": "mod"
+  }
+}

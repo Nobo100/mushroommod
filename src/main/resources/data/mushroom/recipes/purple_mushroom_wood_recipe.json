@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "mushroom:purple_mushroom_log"
+    },
+    "1": {
+      "item": "mushroom:purple_mushroom_log"
+    },
+    "2": {
+      "item": "mushroom:purple_mushroom_log"
+    },
+    "3": {
+      "item": "mushroom:purple_mushroom_log"
+    }
+  },
+  "result": {
+    "item": "mushroom:purple_mushroom_wood",
+    "count": 3
+  }
+}

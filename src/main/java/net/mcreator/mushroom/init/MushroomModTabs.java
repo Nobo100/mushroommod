@@ -22,15 +22,29 @@ public class MushroomModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(MushroomModBlocks.PURPLE_MUSHROOM_FENCE_GATE.get().asItem());
+			tabData.accept(MushroomModBlocks.PURPLE_MUSHROOM_PRESSURE_PLATE.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(MushroomModItems.MUSHROOMTOOLS_SWORD.get());
+			tabData.accept(MushroomModItems.PURPLE_SWORD.get());
+			tabData.accept(MushroomModItems.PURPLE_ARMOR_HELMET.get());
+			tabData.accept(MushroomModItems.PURPLE_ARMOR_CHESTPLATE.get());
+			tabData.accept(MushroomModItems.PURPLE_ARMOR_LEGGINGS.get());
+			tabData.accept(MushroomModItems.PURPLE_ARMOR_BOOTS.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MushroomModBlocks.PURPLE_MUSHROOM_LEAVES.get().asItem());
+			tabData.accept(MushroomModBlocks.PURPLE_MUSHROOM_FENCE.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(MushroomModItems.MUSHROOMTOOLS_AXE.get());
-			tabData.accept(MushroomModItems.MUSHROOMTOOLS_PICKAXE.get());
-			tabData.accept(MushroomModItems.MUSHROOMTOOLS_SHOVEL.get());
-			tabData.accept(MushroomModItems.MUSHROOMTOOLS_HOE.get());
+			tabData.accept(MushroomModItems.PURPLE_AXE.get());
+			tabData.accept(MushroomModItems.PURPLE_PICKAXE.get());
+			tabData.accept(MushroomModItems.PURPLE_SHOVEL.get());
+			tabData.accept(MushroomModItems.PURPLE_HOE.get());
 		}
 	}
 }

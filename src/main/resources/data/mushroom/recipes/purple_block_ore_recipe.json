@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mushroom:purple_block"
+    }
+  ],
+  "result": {
+    "item": "mushroom:purple",
+    "count": 9
+  }
+}

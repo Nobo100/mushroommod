@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "mushroom:block/purplemushroom_planks",
+    "particle": "mushroom:block/purplemushroom_planks"
+  },
+  "render_type": "solid"
+}
