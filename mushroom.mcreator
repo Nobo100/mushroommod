@@ -1,18 +1,5 @@
 {
-  "mod_elements": [
-    {
-      "name": "Killduck",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "killduck",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mushroom/advancements/killduck.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
